@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
 
 // 配置MintUI
 import MintUI from 'mint-ui'
@@ -9,12 +10,17 @@ Vue.use(MintUI)
 
 // 配置axios
 import Axios from 'axios'
-Axios.defaults.baseURL = 'https://www.sinya.online/api/'
+// 配置公共URL
 Vue.prototype.$axios = Axios
+Axios.defaults.baseURL = 'https://www.sinya.online/api/'
 
 // 切换开发和生产模式的提示
 Vue.config.productionTip = false
 
 new Vue({
+  el: "#app",
+  router,
+  components: { App },
+  template: '<App/>',
   render: h => h(App),
 }).$mount('#app')
