@@ -1,15 +1,14 @@
 <template>
     <div>
         <!-- 上有轮播图，下有九宫格 -->
-        <mt-swipe>
+        <mt-swipe :auto="3000">
             <mt-swipe-item v-for="(img,index) in imgs" :key="index">
-                <img :src="img.src" alt="">
+                <div :style="{backgroundImage:'url('+img.src+')'}" alt=""></div>
             </mt-swipe-item>
         </mt-swipe>
     </div>
 </template>
 <script>
-
 export default {
     data(){
         return {
@@ -18,7 +17,7 @@ export default {
     },
     // created创建组件的生命周期函数中，可以操作数据
     created () {
-        this.$axios.get("http://192.168.43.171:8888/")
+        this.$axios.get("http://localhost:8888/")
         .then(res=>{
             // res.data.message = [{img:'图片地址'}]
             console.log(res)
@@ -31,9 +30,16 @@ export default {
     }
 }
 </script>
-<style>
-    .mint-swipe {
-        height: 200px;
-    }
+<style scoped>
+.mint-swipe {
+    height: 200px;
+    overflow: hidden;
+}
+.mint-swipe-item>div{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 </style>
 
