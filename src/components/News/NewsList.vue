@@ -33,7 +33,7 @@ export default {
   created () {
       this.$axios.get('http://localhost:8888/')
       .then(res=>{
-          console.log('news',res.data.newslist)
+        //   console.log('news',res.data.newslist)
           this.newslist = res.data.newslist
       })
       .catch(err=>{

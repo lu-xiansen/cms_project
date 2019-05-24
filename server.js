@@ -21,7 +21,7 @@ var data = {
         {
             id: 1,
             title: '重大新闻1',
-            add_time: '2019-5-24',
+            add_time: '2019-05-24',
             content: '新闻详情巴拉巴拉',
             click_count: 999,
             img_url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559289501&di=ecf0a00f98be25520a48e06d4d3161a6&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F31%2F58107a9c3af2a_610.jpg'
@@ -29,7 +29,7 @@ var data = {
         {
             id: 2,
             title: '重大新闻2',
-            add_time: '2019-3-24',
+            add_time: '2019-03-24',
             content: '新闻详情巴拉巴拉',
             click_count: 999,
             img_url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559289501&di=ecf0a00f98be25520a48e06d4d3161a6&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F31%2F58107a9c3af2a_610.jpg'
@@ -37,7 +37,7 @@ var data = {
         {
             id: 3,
             title: '重大新闻3',
-            add_time: '2019-2-24',
+            add_time: '2019-02-24',
             content: '新闻详情巴拉巴拉',
             click_count: 1234,
             img_url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559289501&di=ecf0a00f98be25520a48e06d4d3161a6&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F31%2F58107a9c3af2a_610.jpg'
@@ -45,7 +45,7 @@ var data = {
         {
             id: 4,
             title: '重大新闻4',
-            add_time: '2018-1-22',
+            add_time: '2018-01-22',
             content: '新闻详情巴拉巴拉',
             click_count: 5422,
             img_url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559289501&di=ecf0a00f98be25520a48e06d4d3161a6&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F31%2F58107a9c3af2a_610.jpg'
@@ -53,7 +53,7 @@ var data = {
         {
             id: 5,
             title: '重大新闻5',
-            add_time: '2017-2-14',
+            add_time: '2017-02-14',
             content: '新闻详情巴拉巴拉',
             click_count: 123,
             img_url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559289501&di=ecf0a00f98be25520a48e06d4d3161a6&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F31%2F58107a9c3af2a_610.jpg'
@@ -61,7 +61,7 @@ var data = {
         {
             id: 6,
             title: '重大新闻6',
-            add_time: '2019-5-24',
+            add_time: '2019-05-24',
             content: '新闻详情巴拉巴拉',
             click_count: 123,
             img_url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559289501&di=ecf0a00f98be25520a48e06d4d3161a6&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F31%2F58107a9c3af2a_610.jpg'
@@ -69,7 +69,7 @@ var data = {
         {
             id: 7,
             title: '重大新闻7',
-            add_time: '2019-5-24',
+            add_time: '2019-05-24',
             content: '新闻详情巴拉巴拉',
             click_count: 432,
             img_url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559289501&di=ecf0a00f98be25520a48e06d4d3161a6&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F31%2F58107a9c3af2a_610.jpg'
@@ -77,7 +77,7 @@ var data = {
         {
             id: 8,
             title: '重大新闻8',
-            add_time: '2019-5-24',
+            add_time: '2019-05-24',
             content: '新闻详情巴拉巴拉',
             click_count: 999,
             img_url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559289501&di=ecf0a00f98be25520a48e06d4d3161a6&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F31%2F58107a9c3af2a_610.jpg'
@@ -85,7 +85,7 @@ var data = {
         {
             id: 9,
             title: '重大新闻9',
-            add_time: '2019-5-24',
+            add_time: '2019-05-24',
             content: '新闻详情巴拉巴拉',
             click_count: 43123,
             img_url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559289501&di=ecf0a00f98be25520a48e06d4d3161a6&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F31%2F58107a9c3af2a_610.jpg'
@@ -93,7 +93,7 @@ var data = {
         {
             id: 10,
             title: '重大新闻10',
-            add_time: '2019-5-24',
+            add_time: '2019-05-24',
             content: '新闻详情巴拉巴拉',
             click_count: 542,
             img_url:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559289501&di=ecf0a00f98be25520a48e06d4d3161a6&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F30%2F31%2F58107a9c3af2a_610.jpg'

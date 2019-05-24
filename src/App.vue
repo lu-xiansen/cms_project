@@ -28,22 +28,22 @@ export default {
   methods:{
     // 该调用早于了子组件赋值给父组件的selected
     changeHash () {
-      console.log(this.selected)
-      // 在vue完成渲染后再执行
-      this.$nextTick(function(){
+      // console.log(this.selected)
+      // this.$nextTick(fn)在vue完成渲染后再执行
+      // 为了让selected没发生改变的情况下，仍然可以路由跳转,给导航添加点击事件
         this.$router.push({
           name: this.selected
         })
-      })
     }
   },
   watch:{
     //监视selected这个值
-    // selected(newVal,oldVal){
-    //     this.$router.push({
-    //       name: newVal
-    //     })
-    // }
+    selected(newVal,oldVal){
+        console.log(this.selected)
+        this.$router.push({
+          name: newVal
+        })
+    }
   },
   
 }
