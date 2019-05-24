@@ -177,9 +177,9 @@ a {
     outline: none;
 }
 
-a:active {
+/* a:active {
     star: expression(this.onFocus=this.blur());
-}
+} */
 
 
 /* 设置页面文字等在拖动鼠标选中情况下的背景色与文字颜色 */
