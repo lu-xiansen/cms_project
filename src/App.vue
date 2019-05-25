@@ -33,7 +33,7 @@ export default {
       // 为了让selected没发生改变的情况下，仍然可以路由跳转,给导航添加点击事件
         this.$router.push({
           name: this.selected
-        })
+        })       
     }
   },
   watch:{
