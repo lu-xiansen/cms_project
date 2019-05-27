@@ -72,9 +72,9 @@ export default {
     },
     // created创建组件的生命周期函数中，可以操作数据
     created () {
-        this.$axios.get("http://localhost:8888/")
+        this.$axios.get("") // 因为配置了公共url，所以这里没有后续路径的话可以为空
         .then(res=>{
-            // console.log('home',res.data.banner)
+            console.log('home',res)
             this.imgs = res.data.banner;
         })
         .catch(err=>{

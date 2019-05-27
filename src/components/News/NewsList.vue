@@ -31,7 +31,7 @@ export default {
   },
   // created 适合操作数据
   created () {
-      this.$axios.get('http://localhost:8888/')
+      this.$axios.get('')
       .then(res=>{
         //   console.log('news',res.data.newslist)
           this.newslist = res.data.newslist
