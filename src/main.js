@@ -31,7 +31,7 @@ Vue.use(MintUI)
 import Axios from 'axios'
 // 配置公共URL
 Vue.prototype.$axios = Axios
-Axios.defaults.baseURL =  'http://localhost:8888/'
+Axios.defaults.baseURL =  'http://localhost:8888/src/data/'
 
 // var Mock = require('mock.js')
 

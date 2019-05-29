@@ -13,11 +13,14 @@ export default {
     }
   },
   created(){
-    // 获取路由查询字符串参数id
-    let id = this.$route.query.id;
-    this.$axios.get(''+id)
+    // $route是信息对象  $router是操作对象,会有一些方法
+    // console.log(this.$route)
+
+    // 获取路由查询字符串参数id啊
+    let id = this.$route.query.id
+    this.$axios.get("newsDetail.json")
     .then(res=>{
-      console.log(res)
+      console.log("newsDetail",res)
     })
     .catch(err=>{
       console.log(err)

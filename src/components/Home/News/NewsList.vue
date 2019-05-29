@@ -31,10 +31,10 @@ export default {
   },
   // created 适合操作数据
   created () {
-      this.$axios.get('')
+      this.$axios.get('newsList.json')
       .then(res=>{
-        //   console.log('news',res.data.newslist)
-          this.newslist = res.data.newslist
+          console.log('newsList',res)
+          this.newslist = res.data.newsList
       })
       .catch(err=>{
           console.log('新闻列表获取失败'+err)

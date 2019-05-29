@@ -39,7 +39,7 @@ export default {
   watch:{
     //监视selected这个值
     selected(newVal,oldVal){
-        console.log(this.selected)
+        // console.log(this.selected)
         this.$router.push({
           name: newVal
         })

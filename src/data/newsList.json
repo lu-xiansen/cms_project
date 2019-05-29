@@ -1,21 +1,5 @@
 {
-    "banner": [{
-        "id:" : 1,
-        "src" : "http://img.zcool.cn/community/019a0558be22d6a801219c77d0578a.jpg@2o.jpg"
-    },
-    {
-        "id:" : 2,
-        "src" : "http://img1.imgtn.bdimg.com/it/u=2738116507,3030577930&fm=26&gp=0.jpg"
-    },
-    {
-        "id:" : 3,
-        "src" : "http://img.zcool.cn/community/019a0558be22d6a801219c77d0578a.jpg@2o.jpg"
-    },
-    {
-        "id:" : 4,
-        "src" : "http://img1.imgtn.bdimg.com/it/u=2738116507,3030577930&fm=26&gp=0.jpg"
-    }],
-    "newslist": [
+    "newsList": [
         {
             "id": 1,
             "title": "重大新闻1",

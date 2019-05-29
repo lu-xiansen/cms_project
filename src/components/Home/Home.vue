@@ -36,8 +36,11 @@ export default {
                    className: 'share',
                    title: '图文分享',
                    router: {
-                       name: 'news.list'
+                       name: 'photo.list'
                    },
+                   params:{
+                       categoryId: 0
+                   }
                },
                {
                    className: 'shangpin',
@@ -72,9 +75,9 @@ export default {
     },
     // created创建组件的生命周期函数中，可以操作数据
     created () {
-        this.$axios.get("") // 因为配置了公共url，所以这里没有后续路径的话可以为空
+        this.$axios.get("banner.json")
         .then(res=>{
-            console.log('home',res)
+            console.log('banner',res)
             this.imgs = res.data.banner;
         })
         .catch(err=>{
