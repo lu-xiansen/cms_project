@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <mt-header  title="信息管理系统"></mt-header>
+    <mt-header  title="信息管理系统" fixed></mt-header>
     <router-view></router-view>
     <mt-tabbar v-model="selected" fixed>
       <mt-tab-item id="home">
@@ -49,5 +49,7 @@ export default {
 }
 </script>
 <style>
-
+body {
+    padding: 40px 0 55px;
+}
 </style>

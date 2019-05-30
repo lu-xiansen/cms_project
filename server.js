@@ -4,12 +4,13 @@ var fs = require("fs");
 var src = [
     "/src/data/banner.json",
     "/src/data/newsList.json",
-    "/src/data/newsDetail.json"
+    "/src/data/newsDetail.json",
+    "/src/data/photoList.json"
 ];
 //开启服务
 var server = http.createServer(function(req,res){
     console.log('有客户端连接');//有请求发起时显示在后台
-    console.log(req)
+    // console.log(req)
     // 遍历并创建接口，根据请求的接口来响应对应的数据
     for(var i=0;i<src.length;i++){
         if(src[i] == req.url){

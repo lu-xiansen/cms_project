@@ -36,10 +36,10 @@ export default {
                    className: 'share',
                    title: '图文分享',
                    router: {
-                       name: 'photo.list'
-                   },
-                   params:{
-                       categoryId: 0
+                       name: 'photo.list',
+                       params:{
+                           categoryId: 0
+                       }
                    }
                },
                {

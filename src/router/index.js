@@ -62,7 +62,7 @@ export default new Router({
         // 图文分享
         {
             name: 'photo.list',
-            path: '/photo/list:cateforyId',
+            path: '/photo/list/:categoryId',
             component: PhotoList
         }
     ]

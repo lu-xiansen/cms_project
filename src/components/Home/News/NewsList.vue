@@ -4,7 +4,7 @@
         <div class="demo">
             <ul>
                 <li v-for="news in newslist" :key="news.id">
-                    <router-link :to="{name:'news.detail',query:'news.id'}">
+                    <router-link :to="{name:'news.detail',query:news.id}">
                         <div class="pic">
                             <div :style="{backgroundImage:'url('+news.img_url+')'}"></div>
                         </div>
@@ -44,7 +44,7 @@ export default {
 </script>
 <style scoped>
 .demo {
-    padding: 0 .5rem 55px;
+    padding: 0 .5rem;
 }
 .demo li {
     margin: 1rem 0;
