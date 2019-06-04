@@ -5,7 +5,8 @@ var src = [
     "/src/data/banner.json",
     "/src/data/newsList.json",
     "/src/data/newsDetail.json",
-    "/src/data/photoList.json"
+    "/src/data/photoList.json",
+    "/src/data/photoType.json"
 ];
 //开启服务
 var server = http.createServer(function(req,res){
@@ -14,6 +15,7 @@ var server = http.createServer(function(req,res){
     // 遍历并创建接口，根据请求的接口来响应对应的数据
     for(var i=0;i<src.length;i++){
         if(src[i] == req.url){
+            // console.log(req)
             fs.readFile('.'+src[i],'utf-8',function(err,data){
                 if(err){
                     res.writeHeader(404,{
