@@ -20,6 +20,7 @@ var server = http.createServer(function(req,res){
                 if(err){
                     res.writeHeader(404,{
                         'content-type' : 'text/html;charset="utf-8"',
+                        // 解决跨域
                         'Access-Control-Allow-Origin' :  '*'
                     });
                     res.write(err);
@@ -38,3 +39,8 @@ var server = http.createServer(function(req,res){
 });
 server.listen(8888);
 console.log('服务器开启成功');
+
+
+// cmd 盘符切换  直接输入 D:切换盘符
+// 输入cd + 路径进入到指定文件夹或打开文件
+// cd.. 返回上级目录
