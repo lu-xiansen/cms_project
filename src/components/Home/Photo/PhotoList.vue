@@ -79,7 +79,7 @@ export default {
         if(this.imgs.length !== 0){
           // mintui 挂载到vue上的方法
           this.$toast({
-            message:'没有内容喽',
+            message:'这是一个toast',
             iconClass: 'icon icon-debug'   // 需要引入css文件
           })
         }
